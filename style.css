@@ -1,0 +1,267 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+  position: sticky;
+   
+    top: 0;
+    
+}
+.navbar-list{
+justify-content: centre;
+background-color: black;
+display: flex;
+width: auto;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar-list li{
+    justify-content: center;
+    list-style: none;
+    float: left;
+    padding: 30px 10px 30px 100px;
+    text-align: right;
+    
+}
+
+.navbar-list a{
+    text-decoration: none;
+    text-align: right;
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+}
+
+.navbar-list li a:hover{
+    color:rgb(255, 99, 8);
+}
+
+
+
+
+/*sections*/
+.heading{
+    position: absolute;
+opacity: 0.8;
+   margin-top: 300px;
+    color: rgb(15, 8, 1);
+    
+    font-size: 70px;
+  
+background-color: grey;
+
+
+}
+.form{
+    padding-left: 30px;
+    position: absolute;
+align-items: center;
+text-align: center;
+   margin-top: 100px;
+    color: rgb(199, 197, 195);
+    opacity: 0.5;
+    font-size: 70px;
+    max-width: 62%;
+    margin: 25px auto;
+    margin-left: 150px;
+
+}
+
+.lo{
+    padding: 150px;
+}
+#home{
+  
+    
+    backface-visibility: visible;
+    background-size: cover;
+    min-height: 100%;
+}
+.h3{
+    background-color: black;
+    padding-bottom: 10px;
+}
+.big{
+    text-align: center;
+    justify-content: center;
+   background-color: black;
+   color: white;
+    text-shadow: grey;
+    font-size: 50px;
+}
+#align{
+    margin: left;
+    justify-content: left;
+}
+.small{
+    font-size: 20px;
+    background-color: black;
+    
+}
+.small1{
+    height: 50%;
+    width:100%
+}
+.pics{
+    width: 50%;
+}
+.pics2{
+    width: 100%;
+}
+.pics3{
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 500px;
+    object-fit: fill;
+    
+
+}
+.pics3 img{
+   
+    width: auto;
+}
+.pics img{
+    justify-content: right;
+    width: 400px;   
+    
+    margin: right;
+    
+}
+
+#about{
+background: rgb(12, 4, 0);
+color: white;
+max-width: 400%;
+max-height: 400%;
+}
+#services{
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+max-height: 100%;
+}
+.foto{
+    display: flex;
+}
+.foto img{
+    margin-right: 64px;
+    width: 344px;
+    border-radius: 9px;
+    border: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow:10px 5px 15px grey;
+}
+.form input{
+    width: 100%;
+    padding: 5px 13px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 12px auto;
+
+}
+.contain{
+    height: 554px;
+    width: 100%;
+    border: 2px solid black;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.contain img{
+    width: 200px;
+border-radius:10px;
+box-shadow: 5px 5px 15px grey;
+margin-bottom: 100px;
+padding: 70px;
+
+justify-content: space-evenly;
+}
+.contain img:hover{
+    box-shadow: 10px 10px 25px rgb(231, 13, 13);
+}
+
+    .bigs {
+        padding: 33px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+.team{
+    background-color: black;
+}
+
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    transition: 3s;
+}
+.header-text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.img-text{
+    padding-top: 20px;
+}
+.img-text p{
+    font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 6px solid#ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.text-footer{
+    text-align: center;
+    padding: 3px 0px;
+    font-size: 12px;
+    color:rgb(228, 220, 220);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 2, 2);
+}
+#contact{
+  background: url(images/2.jpg);
+  background-size: cover;
+    max-width: 200%;
+max-height: 400%;
+background-repeat: no-repeat;
+}
