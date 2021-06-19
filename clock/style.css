@@ -1,0 +1,92 @@
+.clock{
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 300px;
+    box-sizing: border-box;
+    flex: auto;
+   height: 500px;
+   width: 500px;
+   
+    padding: 10px;
+    margin-right: 250px;
+    margin-top: 114px;
+    margin-left: 500px;
+    margin-bottom: 250px;
+    
+    }
+    .o{
+        padding: 10px;
+        border-top: 50%;
+    }
+    .hands{
+        display: flex;
+        padding: auto;
+    }
+    .hour{
+        width: 0px;
+        height: 232px;
+        border: 2px solid blue;
+        margin-left: 224px;
+        margin-bottom: 250px;
+    
+       background-color: blue;
+        margin-left: 209px;
+        animation-name: hrs;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    .sec{
+        width: 0px;
+        height: 180px;
+        border: 3px solid rgb(1, 1, 10);
+        margin-top: 230px;
+        margin-left: -225px;
+    /* padding: 0px 153px; */
+    margin-top: 292px;
+    margin-top: 209px;
+    margin-left: -225px;
+    animation-name: sec;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    .min{
+        width: 0px;
+        height: 0px;
+        border: 3px solid rgb(126, 255, 5);
+        padding: 0px 107px;
+        background-color: chartreuse;
+        margin-top: 232px;
+        margin-top: 230px;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-name: min; 
+    }
+
+    @keyframes hrs{
+       0%{
+           transform: rotate(-90deg);
+
+       }
+       100%{
+           transform: rotate(270deg);
+       }
+    }
+    @keyframes min{
+        0%{
+            transform: rotate(-90deg);
+ 
+        }
+        100%{
+            transform: rotate(270deg);
+        }
+     }
+     @keyframes sec{
+        0%{
+            transform: rotate(-90deg);
+ 
+        }
+        100%{
+            transform: rotate(270deg);
+        }
+     }
