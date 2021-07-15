@@ -1,0 +1,40 @@
+*{
+ margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: paleturquoise;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.but{
+    height: 50px;
+    width: 450px;
+    background-color: rgb(32, 9, 117);
+    color: white;
+    text-align: center;
+}
+.but:hover{
+    background-color: rgb(178, 95, 247);
+    color: white;
+}
+.para{
+     margin-top: 150px;
+    /* margin-left: 300px; */ 
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+    
+    /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    height: fit-content
+    background-color: blanchedalmond;
+    width: 450px;
+}

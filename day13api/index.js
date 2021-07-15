@@ -1,11 +1,6 @@
-
-
-
 // fetch("https://api.github.com/users/gandhirishika")
 // .then(res => res.json())
 // .then(data => console.log(data))
-
-
 const btn = document.querySelector("button")
 const text = document.querySelector("p")
 // const input = document.querySelector("input")
@@ -14,10 +9,15 @@ btn.addEventListener('click' , async ()=>{
     fetch('https://api.quotable.io/random')
 
     .then(res => res.json())
-    .then(data => console.log(data.content))
+    .then(data => {console.log(data.content)
+    text.innerHTML = data.content})
+    play();
 })
-text.innerHTML = {data.content}
 // async function getData(username){
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
 //     const res = await fetch('https://api.github.com/users/${username}')
 //     const data = await res.json()
 //     return data
