@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    line-height: 0px;
+    height: 300px;
+    width: 300px;
+    border: 20px solid black;
+    margin-left: 550px;
+    margin-top: 160px;
+    padding: 10px 10px;
+    
+}
+.card:nth-child(odd){
+    /* padding: 10px 20px; */
+    border:1px solid black;
+display: inline-block;
+/* margin: auto; */
+width: 25px;
+height: 25px;
+margin: 20px 0px;
+margin: auto;
+background-color: black;
+}
+.card:nth-child(even){
+    border:1px solid black;
+    /* padding: 10px 20px; */
+    display: inline-block;
+    /* margin: auto; */
+    width: 25px;
+    height: 25px;
+    margin: 20px 0px;
+    margin: auto;
+    background-color: white
+    }

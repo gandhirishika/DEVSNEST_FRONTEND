@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+font-size: 18px;
+}
+#canvas{
+  /* border: 1px solid black; */
+  background-color: rgb(255, 255, 255);
+  height: 750px;
+  width: 1730px;
+display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  /* border: 2px solid black; */
+  box-shadow: 5px 5px 5px 5px rgb(208, 204, 204);
+}
+
+.upper{
+height: 80px;
+background-color: black;
+width: 1920px;
+display: inline-block;
+overflow: hidden;
+}
+.tools1{
+float: right;
+/* padding: 20px;
+margin: 20px; */
+text-align: center;
+}
+#reset{
+height: 30px;
+width: 100px;
+}
+#download{
+height: 30px;
+width: 100px;
+background-color: blanchedalmond;
+}
+#undo{
+height: 30px;
+width: 100px;
+}
+#redo{
+
+height: 30px;
+width: 100px;
+}
+
+#shapes{
+display: none;
+height: 100px;
+width: 200px;
+}
+#download{
+background-color: black;
+color: white;
+padding-right: 20px;
+
+}
+.tools{
+display: inline-block;
+height: 50px;
+width: 700px;
+margin-left: 100px;
+/* background-color: rgb(206, 135, 29); */
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.tools3{
+display: flex;
+height: 50px;
+justify-content: center;
+align-items: center;
+width: 400px;
+/* background-color: burlywood; */
+margin-right: 0px;
+margin-left: 300px;
+}
+
+
+.t{
+display: flex;
+}
+
+
+.show{
+display: block;
+}
+
+button{
+
+margin: 20px;
+text-align: center;
+border-radius: 10px;
+height: 30px;
+width: 80px;
+}
+#text{
+width: 100px;
+}
+#pen-color{
+margin-left: 20px;
+}
+#pen-size{
+margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: fit-content;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  overflow: scroll;
+  height: 500px;
+  width: 600px;
+  margin-top: 120px;
+  background-color : cyan;
+  margin-left: 550px;
+  align-items: center;
+
+  padding:20px;
+}
+.card{
+  display: flex;
+  line-height: 10px;
+  flex-direction: column;
+  /* padding: 20px; */
+  justify-content : center;
+  margin:10px;
+  background-color: pink;
+  border: 2px solid darkblue;
+height: 200px;
+width: 520px;
+}
+.card .title{
+font-size: 1.2rem;
+font-weight: bold;
+padding: 30px;
+text-align: center;
+}
+.card .description{
+  font-size: 1 rem;
+  padding: 10px;
+  text-align: center;
+font-weight: bold;
+}

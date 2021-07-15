@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="WHITEBOARD.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+<div class="app">
+  <div class="controls">
+    <!-- <button class="buttonseraser"><i class="fa fa-eraser"></i>
+     - //   <span class="erasertext">Eraser</span> -->
+<div class="eraser">
+    <button class="buttonseraser"><i class="fa fa-eraser"></i>
+    </button> 
+    </div>
+
+    <div class="pencil">
+
+<button class="buttonspencil"><i class="fa fa-pencil"></i>
+    <!-- <span class="penciltext">Pencil</span> -->
+</button>
+    </div>
+   
+
+    <div class="size">
+      <label for="pen-size">Size</label>
+      <input type="range" id="pen-size" min="1" max="50">
+    </div>
+    <div class="color">
+      <label for="pen-color"></label>
+      <input type="color" id="pen-color" value="#000">
+    </div>
+    <div class="actions">
+      <button id="reset">Reset</button>
+      <a id="download" download="myImage.png" href="" onclick="download_img(this);" ><i class="fa fa-download"></i></a>
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <canvas id="canvas"></canvas>
+
+
+
+
+
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body /
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  / Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+  }
+</script>
+  <script src="WHITEBOARD.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js%22%3E"></script>
+</body>
+</html>
